@@ -33,8 +33,8 @@ public class Player {
 		
 		if(f_posx<99)f_posx=99;
 		if(f_posy<99)f_posy=99;
-		if(f_posx>worldsize_x-bounding.width)f_posx=worldsize_x-bounding.width;
-		if(f_posy>worldsize_y-bounding.height)f_posy=worldsize_y-bounding.height;
+		if(f_posx>worldsize_x-bounding.width-99)f_posx=worldsize_x-bounding.width-99;
+		if(f_posy>worldsize_y-bounding.height-99)f_posy=worldsize_y-bounding.height-99;
 		
 		bounding.x=(int)f_posx;
 		bounding.y=(int)f_posy;
