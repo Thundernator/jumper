@@ -31,8 +31,8 @@ public class Player {
 		if(right)f_posx+=300*timeSinceLastFrame;
 		if(left)f_posx-=300*timeSinceLastFrame;
 		
-		if(f_posx<0)f_posx=0;
-		if(f_posy<0)f_posy=0;
+		if(f_posx<99)f_posx=99;
+		if(f_posy<99)f_posy=99;
 		if(f_posx>worldsize_x-bounding.width)f_posx=worldsize_x-bounding.width;
 		if(f_posy>worldsize_y-bounding.height)f_posy=worldsize_y-bounding.height;
 		

@@ -13,6 +13,8 @@ public class Background {
 	public Background(float f_speed){
 		this.f_speed = f_speed;
 
+		//////////////////////////////////////////////////////
+		
 		try {
 			look = ImageIO.read(getClass().getClassLoader().getResourceAsStream("gfx/weltraum.png"));
 		} catch (IOException e) {e.printStackTrace();}
