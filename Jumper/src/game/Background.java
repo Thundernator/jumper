@@ -36,4 +36,5 @@ System.out.println("+x");
 	public BufferedImage getLook(){
 		return look;
 	}
+	//öfaksdjföajsdföljasödlfjaösjdföasjdfölajsdföljasdfölja
 }
