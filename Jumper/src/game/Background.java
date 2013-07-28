@@ -24,7 +24,7 @@ public class Background {
 			if(left)f_posx-=300*timeSinceLastFrame;
 		}
 		if(p.getF_posx()>worldsize_x-p.getBounding().width-100){
-System.out.println("+x");
+			System.out.println("+x");
 			if(right)f_posx+=300*timeSinceLastFrame;
 		}
 	}
