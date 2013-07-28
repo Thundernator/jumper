@@ -29,7 +29,7 @@ public class Frame extends JFrame{
 		this.player = player;
 		this.bg = bg;
 	}
-	
+	//Das ist der ultrakckamann ver"anderung
 	
 	public boolean getUp(){
 		return key_up;
