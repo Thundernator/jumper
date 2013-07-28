@@ -19,7 +19,7 @@ public class Frame extends JFrame{
 	private boolean key_down = false;
 	private boolean key_left = false;
 	private boolean key_right = false;
-	
+	//pics
 	public Frame(Player player, Background bg){
 		super("Main");
 		screen = new Screen();
